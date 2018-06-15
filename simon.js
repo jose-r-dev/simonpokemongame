@@ -71,7 +71,8 @@
 			activar(dataKey, {falla:true});
 			
 			setTimeout( function() { alert("perdiste"); }, 500 ) 
-			setTimeout( function() { iniciarJuego(); }, 1000 ) 
+			//setTimeout( function() { iniciarJuego(); }, 1000 ) 
+			setTimeout( function() { location.reload(); }, 1000 ) 
 				
 			
 			
