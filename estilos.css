@@ -100,3 +100,15 @@ header button:active {background-color: lightgray}
     border-color: white;
   }
 }
+
+/*resposive*/
+@media screen and (max-width: 992px)
+{
+  h1 {font-size: 42px; margin-bottom: 5px }
+  h2 {font-size: 32px; margin-bottom: 20px}
+  header p {font-size: 28px; margin-bottom: 10px; margin-bottom: 20px }
+  header button {padding: 30px; font-size: 32px; text-align: right;}
+
+  .keyboards.tarjetas {height: 100%}
+  .row {height: 19% !important}
+}
