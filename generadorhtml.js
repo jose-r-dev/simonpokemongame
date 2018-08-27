@@ -87,8 +87,6 @@ window.onload = function ventanaCargada()
 	let filas = document.getElementsByClassName("row");
 	rellenarFilas();
 
-	setTimeout(function(){iniciarJuego(),1000})
-	
 }
 
 
