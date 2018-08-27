@@ -98,13 +98,16 @@
 		pasarNivel(nivelInicial);
 	}
 
+
+
+	let $botonIniciar = document.getElementById("botonComenzar");
 	let tarjetasArreglo;
 	let niveles;
 	let tarjetas;
 	let iArreglo;
 	let nivelInicial;
 
-
+	$botonIniciar.addEventListener("click", iniciarJuego);
 
 	
 
